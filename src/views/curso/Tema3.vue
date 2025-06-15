@@ -170,7 +170,7 @@ export default {
           {
             id: 1,
             texto:
-              '1.	¿Cuál de las siguientes afirmaciones describe mejor la interdependencia económica entre países?',
+              '¿Cuál de las siguientes afirmaciones describe mejor la interdependencia económica entre países?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
@@ -273,8 +273,7 @@ export default {
           },
           {
             id: 4,
-            texto:
-              '4.	¿Cómo afecta la globalización a la economía internacional?',
+            texto: '¿Cómo afecta la globalización a la economía internacional?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
