@@ -17,13 +17,37 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #C1F0FA
   &-2
-    background-color: #FFFBE8
+    background-color: #103D47
   &-3
-    background-color: #F0E9F6
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(230, 240, 205, 1) 40%, rgba(230, 240, 205, 1) 60%, rgba(255, 255, 255, 1) 100%);
   &-4
-    background-color: #EAF8FD
+    background-color: #E2DACC
+  &-5
+    background-color: #E6F0CD
+  &-6
+    background-color: #D6F5FB
+  &-7
+    background-color: #FFEBD0
+  &-8
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(214, 245, 251, 1) 40%, rgba(214, 245, 251, 1) 60%, rgba(255, 255, 255, 1) 100%)
+  &-9
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(255, 235, 208, 1) 40%, rgba(255, 235, 208, 1) 60%, rgba(255, 255, 255, 1) 100%)
+  &-10
+    background-color: #FFF4E6
+  &-11
+    background-color: #FFE1B9
+  &-12
+    background-color: #80D6E9
+  &-13
+    background-color: #E9F9FD
+  &-14
+    background-color: #B2E9F5
+  &-15
+    background-color: #F2F7E5
+  &-16
+    background-color: #CEE29D
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -51,13 +75,13 @@
 
 .bg-fondo
   &-1
-    background-image: url("../assets/bg/bg1.png") !important
+    background-image: url("../assets/bg/bg1.svg") !important
     background-position: top
   &-2
     // background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
   &-slider
-    background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/bg/bg-slider.svg") !important
     background-position: bottom
 
 // Variables
@@ -182,20 +206,21 @@ $custom-card-img-height: 322px
   span
     font-size: 0.85em
 
-.large
+.large-2
   .linea-tiempo-d__item__content__title
     padding: 28px
     border-radius: 5px 5px 0px 0px
-    background-color: lighten($color-primario, 30%)
+    background-color: lighten($color-secundario, 30%)
   .linea-tiempo-d__item__content__title.active
-    background-color: $color-primario !important
+    background-color: $color-secundario !important
   .linea-tiempo-d__item__content__slot
     border-radius: 0px 0px 5px 5px
-    background-color: lighten($color-primario, 37%) !important
+    background-color: lighten($color-secundario, 37%) !important
   .linea-tiempo-d__item__number
-    background-color: lighten($color-primario, 30%)
+    background-color: lighten($color-secundario, 30%)
   .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-    background-color: $color-primario !important
+    background-color: $color-secundario !important
+    color: $color-sistema-texto !important
   .linea-tiempo-d__item__dots:after
     border-left: 0px
   .fa-angle-up, .fa-angle-down
