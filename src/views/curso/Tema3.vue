@@ -233,7 +233,8 @@ export default {
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto:
+              'La especialización según la ventaja comparativa permite que los países produzcan los bienes en los que son más eficientes y los intercambien, beneficiando a ambas partes.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
